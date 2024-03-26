@@ -11,26 +11,28 @@ Uma definição de tipo de documento (inglês: document type definition, DTD)
         <meta charset="UTF-8"/>
         <meta name="viewport" content= "widht: device-widht, initial-scale=1.0"/>
         <title>Página Básica</title>
+
+        <link rel="stylesheet" href="./css/estilo.css">
+
     </head>
     <body>
         
-        <div class="container">
+        <div id="container">
 
-            <header class="cabeçalho">
-                <h1 style="text-align: center;
-                font-family:Tahoma, Verdana, sans-serif;">Minha Página</h1>
+            <header id="cabeçalho">
+                <h1>Minha Página</h1>
 
-                <nav class="menu">
+                <nav id="menu">
                     <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="./paginas/contact.html">Contact</a></li>
-                        <li><a href="./paginas/about.html">About</a></li>
+                        <li class="link"><a href="./paginas/help.html"><img src="./img/help.png" alt="Interogação em um circulo." width="5%"></a></li>
+                        <li class="link"><a href="./paginas/about.html"><img src="./img/about.png" alt="Letra i em um circulo." width="5%"></a></li>
+                        <li class="link"><a href="./paginas/contact.html"><img src="./img/contact.png" alt="Lapis escrevendo em um balão." width="5%"></a></li>
                     </ul>
                 </nav> 
                 
                 </header>
                 
-                <section class="conteudo">
+                <section id="conteudo">
                     <div>
                         <h2>Sobre mim...</h2>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
