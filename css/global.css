@@ -13,3 +13,8 @@ a {
     font-weight: bold;
 }
 
+/* Defina uma margem interna de 20 pixels para todos os elementos da classe .container. */
+.container {
+    padding: 20px;
+}
+
