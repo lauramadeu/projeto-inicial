@@ -1,4 +1,10 @@
-/* 1. Defina uma cor de fundo para o cabeçalho (<header>) da cor azul. */
+/* Defina uma cor de fundo para o cabeçalho (<header>) da cor azul. */
 header {
     background-color: rgb(0, 145, 255);
-}    
+}
+
+/* Aplique uma fonte serifada para todos os títulos(ch1>, <h2>) */
+h1, h2 {
+    font-family: sans-serif;
+}
+
