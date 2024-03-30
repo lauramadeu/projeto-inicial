@@ -18,3 +18,8 @@ a {
     padding: 20px;
 }
 
+/* Ajuste o espaçamento entre linhas para 1.5 para todo o conteúdo dentro da <section> com o id conteudo. */
+#conteudo {
+    line-height: 1.5;
+}
+
