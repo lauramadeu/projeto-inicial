@@ -8,3 +8,8 @@ h1, h2 {
     font-family: sans-serif;
 }
 
+/* Faça com que os links da barra de navegação (<nav>) fiquem em negrito. */
+a {
+    font-weight: bold;
+}
+
