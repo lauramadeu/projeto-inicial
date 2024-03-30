@@ -1,0 +1,4 @@
+/* 1. Defina uma cor de fundo para o cabeçalho (<header>) da cor azul. */
+header {
+    background-color: rgb(0, 145, 255);
+}    
