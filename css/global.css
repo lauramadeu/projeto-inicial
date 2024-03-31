@@ -23,3 +23,7 @@ a {
     line-height: 1.5;
 }
 
+/* Aplique uma cor de texto verde para todos os parágrafos (<p>). */
+p {
+    color: green;
+}
