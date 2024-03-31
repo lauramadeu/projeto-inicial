@@ -27,3 +27,8 @@ a {
 p {
     color: green;
 }
+
+/* Defina uma borda superior de 2 pixels sólida e vermelha para o rodapé (<footer>). */
+footer {
+    border-top: 2px solid red;
+}
